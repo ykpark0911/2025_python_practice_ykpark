@@ -1,2 +1,3 @@
-print("킬로그렘 ---> 파운드 변환기")
-print(str(float(input("킬로그렘 값 입력: "))*2.205) + "lb")
+kg = int(input("kg을 입력해주세요 "))
+ld = kg*2.20462
+print(ld, "파운드입니다")
