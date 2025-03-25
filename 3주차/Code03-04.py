@@ -1,0 +1,10 @@
+base = int(input("입력 진수 결정(16/10/8/2): \t"))
+num = int(input("값 입력: \t\t"), base)
+num_hexdicimal= hex(num)
+num_decimal = num
+num_octal = oct(num)
+num_binary = bin(num)
+print("16진수 ==> \t\t\t{}입니다".format(num_hexdicimal))
+print("10진수 ==>\t\t\t{}입니다".format(num_octal))
+print("8진수 ==>\t\t\t{}입니다".format(num_decimal))
+print("2진수 ==>\t\t\t{}입니다".format(num_binary))
