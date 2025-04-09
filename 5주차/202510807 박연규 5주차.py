@@ -1,6 +1,6 @@
 #각 단의 제목 출력
 for i in range(2, 10):
-    print("#  {}단  # ".format(i), end = "") #end = "" 는 줄바꿈 하지 않겠다는 것을 의미
+    print(f"#  {i}단  # ", end = "") #end = "" 는 줄바꿈 하지 않겠다는 것을 의미
 
 #각 (세로)줄을 출력
 for num in range(1, 10): #num: 곱해지는 수
