@@ -1,7 +1,7 @@
 outFp = None
 outStr = ""
 
-outFp = open("C:\\pypy\\2025 python practice ykpark\\10주차\\fileTest\\data2.txt", "w")
+outFp = open("C:\\pypy\\2025 python practice ykpark\\10주차\\fileTest\\data2.txt", "w", encoding= 'UTF8')
 
 while True:
     outStr = input("내용을 입력")
