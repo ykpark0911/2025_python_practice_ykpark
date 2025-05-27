@@ -10,6 +10,6 @@ mainMenu.add_cascade(label= "파일", menu= fileMenu) #메뉴바에 '파일'이�
 
 fileMenu.add_command(label= "열기") #'파일' 안에 항목 추가
 fileMenu.add_separator() # 구분선
-fileMenu.add_command(label= "종료")
+fileMenu.add_command(label= "종료") #'파일' 안에 항목 추가
 
 window.mainloop()
