@@ -12,4 +12,4 @@ saveFp = asksaveasfile(parent= window, mode= "w", defaultextension=".jpg", filet
 # defaultextension=“.jpg”는 특별히 확장명을 지정하지 않으면 확장명을 jpg로 붙인다는 의미이 
 
 label1.configure(text= saveFp)
-saveFp.close
+saveFp.close()
